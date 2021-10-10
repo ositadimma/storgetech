@@ -1,0 +1,191 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* .flex{
+  display: flex;
+  
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}  */
+
+.edit-btn{
+  border: none;
+}
+
+.item-div{
+  width: 100%;
+  padding-left: 3%;
+}
+
+.add-button{
+ font-weight: 400;
+ background-color: #3c1efd;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: transform 0.3s ease;
+ color: white;
+ border: none;
+ height: 40px;
+ width: 90px;
+ margin-bottom: 20px;
+}
+
+.add-button:hover{
+  transform: translateY(-0.5px);
+  background-color: rgb(81, 84, 250);
+}
+
+.sidebar{
+  margin: 0;
+  padding: 0;
+  height: 93vh;  
+  width: 250px;
+  background-color: #2f4850;
+}
+
+.sidebarList{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin:0;
+}
+
+.sidebarList .row{
+  width: 80%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row #title{
+  flex: 30%;
+}
+
+.sidebarList .row:hover{
+  cursor: pointer;
+  background-color: #293646;
+}
+
+.sidebarList #active{
+  background-color: #293646;
+}
+
+.navbar{
+  background-color: #4F94CD;
+  height: 7vh;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.form{
+  width: 80%;
+  margin: 10px;
+}
+
+.navbar .admin{
+  flex: 20%;
+  align-items: center;
+  padding-left: 4%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.dashboardPage{
+  width: 100%;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.boxes{
+  display: flex;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.dashboard div{
+  height: 100px;
+  width: 50px;
+  color: white;
+}
+.dashboardPage .items{
+  background-color: #00CED1;
+  width: 22%;
+  height: 150px;
+  padding-left: 20px;
+  padding-top: 30px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: rgb(224, 224, 224) 0px 8px 24px; 
+}
+
+.dashboardPage .users{
+  background-color: #1bac1b;
+  margin-left: 8%;
+  width: 22%;
+  height: 150px;
+  padding-left: 20px;
+  padding-top: 30px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: rgb(224, 224, 224) 0px 8px 24px; 
+}
+
+.dashboardPage .categories{
+  background-color: #ffa500;
+  margin-left: 8%;
+  width: 22%;
+  height: 150px;
+  padding-left: 20px;
+  padding-top: 30px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: rgb(224, 224, 224) 0px 8px 24px; 
+}
+
+.total{
+  font-size: 35px;
+  padding-top: 20px;
+}
+
+.table{
+  width: 80%;
+  border: 'solid black';
+}
+
+.small-icon{
+  margin-right: 10px;
+}
+
+.large-icon{
+ transform: scale(4);
+ margin-top: 40px;
+ margin-left: 60px;
+}
+
+.Login {
+  padding: 60px 0;
+}
+
+.Login form {
+  margin: 0 auto;
+  max-width: 320px;
+}
